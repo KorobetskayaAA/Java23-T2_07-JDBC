@@ -1,0 +1,32 @@
+{
+  "bookingRef": "TestBR",
+  "bookingDate": "2024-01-15T12:53:13.000+04",
+  "tickets": [
+    {
+      "ticketNo": "Test00001",
+      "passengerId": "1234000001",
+      "passengerName": "TEST PASSANGER1",
+      "contactData": "{\"phone\":\"123456789\"}",
+      "flights": [
+        {
+          "flightId": 65659,
+          "fare_conditions": "Comfort",
+          "amount": 9999.0
+        }
+      ]
+    },
+    {
+      "ticketNo": "Test00002",
+      "passengerId": "1234000002",
+      "passengerName": "TEST PASSANGER2",
+      "contactData": "{\"email\":\"test@example.com\"}",
+      "flights": [
+        {
+          "flightId": 65659,
+          "fare_conditions": "Comfort",
+          "amount": 9999.0
+        }
+      ]
+    }
+  ]
+}
